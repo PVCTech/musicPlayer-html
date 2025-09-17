@@ -7,6 +7,8 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script>
         const rootFolder = '/musicPlayer-html/';
+        let link = document.querySelector("link[rel*='icon']");
+        link.href= rootFolder  + 'favicon.ico';
     </script>
     <script src="functions/time.js?v=dev1"></script>
     <link rel="stylesheet" href="index_files/style/style.css?v=dev1">
