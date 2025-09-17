@@ -1,0 +1,24 @@
+.track
+{
+    text-align:left;
+    position:relative;
+    border-radius:5px;
+    padding:15px;
+    border:0.3px solid rgba(0,0,0,0.2);
+    font-size:12px;
+    color:rgba(0,0,0,0.5);
+    background:white;
+}
+
+.track_playing 
+{
+    font-weight:bold;
+    color:green;
+    border:0.3px solid green;
+}
+
+.track_selected
+{
+    background:#c3f3c3;
+    color:green;
+}

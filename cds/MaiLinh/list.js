@@ -1,0 +1,28 @@
+var listNhacMaiLinh = 
+[
+    new BaiHat({rootFolder: rootFolder, folder: "MaiLinh", 
+        tenHienThi: "Mai Linh tuổi 20", tenFile: "mai-linh-tuoi-20", 
+        tacGia: "Nguyễn Quý Lăng", trinhBay: "tốp ca", 
+        volume: 80, trangThai: -1, 
+        autoNext: 1, delayBeforePlay: 2, imageName: "mai_linh_tuoi_20.png"}),	
+    new BaiHat({rootFolder: rootFolder, folder: "MaiLinh", 
+        tenHienThi: "Bài ca Mai Linh", tenFile: "bai-ca-mai-linh", 
+        tacGia: "Mộng Lân", trinhBay: "tốp ca", 
+        volume: 100, trangThai: -1, 
+        autoNext: 0, delayBeforePlay: 0, imageName: "bai_ca_mai_linh.png"}), 	
+    new BaiHat({rootFolder: rootFolder, folder: "MaiLinh",
+        tenHienThi: "Mai Linh tôi yêu", tenFile: "mai-linh-toi-yeu", 
+        tacGia: "Trung Nhân", trinhBay: "tốp ca", 
+        volume: 80, trangThai: -1, 
+        autoNext: 1, delayBeforePlay: 0, imageName: "mai_linh_toi_yeu.png"}), 
+    new BaiHat({rootFolder: rootFolder, folder: "MaiLinh",
+        tenHienThi: "Mai Linh Nam Định trọn niềm tin", tenFile: "mai-linh-nam-dinh-tron-niem-tin", 
+        tacGia: "Trọng Nhân", trinhBay: "tốp ca",
+        volume: 80, trangThai: -1, 
+        autoNext: 1, delayBeforePlay: 0, imageName: "mai_linh_nam_dinh_tron_niem_tin.png"}), 
+    new BaiHat({rootFolder: rootFolder, folder: "MaiLinh",
+        tenHienThi: "Mai Linh Nam Định trọn niềm tin Beat", tenFile: "Mai Linh Nam Dinh tron niem tin  Beat", 
+        tacGia: "Trọng Nhân", trinhBay: "tốp ca", 
+        volume: 80, trangThai: -1, 
+        autoNext: 1, delayBeforePlay: 0, imageName: "mai_linh_nam_dinh_tron_niem_tin_beat.png"})
+];
