@@ -2,7 +2,8 @@
 Các list nhạc dành cho Mai Linh. Không bao gồm tính năng điều khiển từ xa
 Version 3.0
 ## Cách sử dụng:
-1. Click Chọn các bài hát để tạo thành 1 list các bài sẽ phát. Nếu không chọn tức là sẽ phát tất cả các bài
+1. Click Chọn các bài hát để tạo thành 1 list các bài sẽ phát. Nếu không chọn tức là sẽ phát tất cả các bài.
+   
    Việc click chọn sẽ không ảnh hưởng tới bài đang phát hoặc play bài được click
 3. Lựa chọn chế độ phát:
    - Thứ tự phát:
