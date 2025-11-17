@@ -2,6 +2,55 @@ var countTimer = setInterval(function ()
 { 
 }, 1000000);
 
+var title_countTimer = setInterval(function () 
+{ 
+}, 1000000);
+
+class Title
+{
+	constructor(noiDung='Music Player', displaySpeed = 500)
+	{
+		this.noiDung = noiDung;	
+		this.displaySpeed = 500;
+	}
+	
+	display(trangThai="Playing", noiDungDisplay)
+	{
+		if (noiDungDisplay == '')
+		{
+			clearInterval(title_countTimer);
+			document.title = this.noiDung;
+		}
+		else
+		{
+			let tach = noiDungDisplay.split(' ');
+			if (tach.length <=2)
+			{
+				clearInterval(title_countTimer);
+				document.title = trangThai + ": "  + noiDungDisplay;
+			}
+			else
+			{
+				let viTriHienThi = -1;
+				clearInterval(title_countTimer);
+				title_countTimer = setInterval(function()
+				{
+					if (viTriHienThi < tach.length - 2)
+					{
+						viTriHienThi++;
+					}
+					else
+					{
+						viTriHienThi =0;
+					}
+					document.title = trangThai + ": " + tach[viTriHienThi] + ' ' + tach[viTriHienThi + 1];
+				}, this.displaySpeed);
+			}
+		}
+	}
+}
+var title = new Title();
+
 var delayPlay_Timeout  = setTimeout(function(){},0);
 var countdown_Timeout = setInterval(function(){},0);
 var countdownPlay = 0;
