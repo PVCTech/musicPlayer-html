@@ -167,7 +167,8 @@ class BaiHat
             <span style="font-size:11px;color:rgba(0,0,0,0.6);">Tác giả: ${this.tacGia}</span><br>
             <span style="font-size:11px;color:rgba(0,0,0,0.6);">Trình bày: ${this.trinhBay}</span>
         `);
-        document.title = `Playing: ${this.tenHienThi}`;
+        title.display('Playing',this.tenHienThi);
+        
         if (this.imageName == "cd")
         {
             var disc_img_Url = `${this.rootFolder}index_files/track_images/cd.png`;
@@ -206,7 +207,7 @@ class BaiHat
     {
         this.trangThai = 0;
         this.media().pause();
-        document.title = `Paused: ${this.tenHienThi}`;
+        title.display('Paused',this.tenHienThi);
     }
     
     stop = () =>
@@ -214,7 +215,7 @@ class BaiHat
         this.trangThai = 0;
         this.media().pause();
         this.media().currentTime=0;
-        document.title = `Stopped: ${this.tenHienThi}`;
+        title.display('Stopped',this.tenHienThi);
     }
     
 }
